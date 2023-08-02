@@ -1,0 +1,11 @@
+int size.
+int sum.
+out newline, "Sum:", sum. {Ignore me}
+sub size from sum.
+add size to sum.
+move 5 to size.
+loop size times
+[ out size, newline.
+  add size to sum.
+]
+out newline, "Sum:", sum.
